@@ -1,0 +1,13 @@
+
+Project Description: To-Do List REST API
+In this project, you will build a To-Do list application using Python Flask, where users can perform CRUD operations (Create, Read, Update, Delete) on their tasks. 
+You'll implement the REST API endpoints that handle these operations.
+
+Design the API with the following endpoints:
+GET /tasks: Retrieve a list of all tasks.
+POST /tasks: Create a new task.
+GET /tasks/<task_id>: Retrieve a specific task by its ID.
+PUT /tasks/<task_id>: Update a specific task by its ID.
+DELETE /tasks/<task_id>: Delete a specific task by its ID.
+Each task should have a title and a description.
+Handle error cases properly, such as when a task is not found, etc.
